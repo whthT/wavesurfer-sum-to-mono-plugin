@@ -22,6 +22,12 @@ wavesurfer.on("toggle-mono", (isMono) => {
 });
 ```
 
+### Methods
+
+- `sumToMono()` Transform sound to mono
+- `revertMonoToOriginal()` Revert sound to original form
+- `isMono()` Is mono
+
 ### Installation
 
 ```sh
