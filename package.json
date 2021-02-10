@@ -1,6 +1,6 @@
 {
   "name": "wavesurfer-sum-to-mono-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WaveSurfer.js sum to mono plugin",
   "main": "dist/WaveSurferSumToMonoPlugin.js",
   "repository": "git@github.com:whthT/wavesurfer-sum-to-mono-plugin.git",
