@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveSurfer Sum To Mono Plugin</title>
+    <style>
+        .links {
+            margin-top: 20px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .controls button {
+            border: none;
+        }
+
+        .controls button {
+            margin-left: 5px;
+            padding: 5px 10px;
+        }
+
+        .controls button.Active {
+            background: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="player" controls crossorigin>
+        <source src="/untitled_stereo.wav" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <div id="wavesurfer"></div>
+    <hr>
+    <button id="playPause">Play/Pause</button>
+
+    <hr>
+    <div class="links">
+        <a href="/4_channel_test.wav">mono_stereo_5.1surround.wav</a> / <a
+            href="/bllt_impact_01.wav">bllt_impact_01.wav</a> / <a href="/mono_track_test.wav">mono_track_test.wav</a> /
+        <a href="/stereo_track_test.wav">stereo_track_test.wav</a>
+    </div>
+    <hr>
+    <div class="controls">
+        <button class="mono">MONO</button>
+        <button class="stereo Active">STEREO</button>
+    </div>
+
+</body>
+
+</html>
