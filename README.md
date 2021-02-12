@@ -28,6 +28,9 @@ wavesurfer.on("toggle-mono", (isMono) => {
 - `revertMonoToOriginal()` Revert sound to original form
 - `isMono()` Is mono
 
+### Events
+- `toggle-mono` Fires when toggle mono.
+
 ### Installation
 
 ```sh
